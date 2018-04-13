@@ -13,7 +13,7 @@ csc.exe /target:exe HashTableExample.cs HashTable.cs
 ### Usage
 See the HashTableExample.cs source code for an example which provides a command line utility to Add, Remove and Delete integers in a BST, as well as print the BST in a readable format. The command line utility accepts four commands:
 
-# - Prints the number of elements in the hash table.
+\# - Prints the number of elements in the hash table.
 
 +<int> - Inserts <int> into hash table. For example: +4 
   
