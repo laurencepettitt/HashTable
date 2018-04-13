@@ -22,11 +22,11 @@ See the HashTableExample.cs source code for an example which provides a command 
 -\<int\> - Deletes an element from the hash table, if present. Example: -4 (now the table is empty)
 
 ### Todo
-..* Only insert elements into the hash table if not already there.
+- Only insert elements into the hash table if not already there.
 
-..* Make generic.
+- Make generic.
 
-..* Better error management.
+- Better error management.
 
 ### Issues
 Permission denied when running HashTableExample.exe, you may need to run `chmod u+x HashTableExample.exe` to grant execute permissions.
