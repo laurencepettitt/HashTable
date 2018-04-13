@@ -15,11 +15,11 @@ See the HashTableExample.cs source code for an example which provides a command 
 
 \# - Prints the number of elements in the hash table.
 
-+<int> - Inserts <int> into hash table. For example: +4 
++\<int\> - Inserts \<int\> into hash table. For example: +4 
   
-?<int> - Queries the hash table and returns "YES" if found or "NO" if not. Example: ?4 (would return "YES")
+?\<int\> - Queries the hash table and returns "YES" if found or "NO" if not. Example: ?4 (would return "YES")
   
--<int> - Deletes an element from the hash table, if present. Example: -4 (now the table is empty)
+-\<int\> - Deletes an element from the hash table, if present. Example: -4 (now the table is empty)
 
 ### Todo
 ..* Only insert elements into the hash table if not already there.
