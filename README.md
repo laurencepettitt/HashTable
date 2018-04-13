@@ -13,17 +13,19 @@ csc.exe /target:exe HashTableExample.cs HashTable.cs
 ### Usage
 See the HashTableExample.cs source code for an example which provides a command line utility to Add, Remove and Delete integers in a BST, as well as print the BST in a readable format. The command line utility accepts four commands:
 
-P - Prints the tree, sideways, such that the root is on the left and higher values are above lower ones.
+# - Prints the number of elements in the hash table.
 
-I <int> - Inserts <int> into tree. For example: I 4 
++<int> - Inserts <int> into hash table. For example: +4 
   
-Q <int> - Queries the tree and returns "Present" if found or "Absent" if not. Example: Q 4 (would return "Present)
+?<int> - Queries the hash table and returns "YES" if found or "NO" if not. Example: ?4 (would return "YES")
   
-D <int> - Deletes an element from the tree, if Present. Example: D 4 (now the tree is empty)
+-<int> - Deletes an element from the hash table, if present. Example: -4 (now the table is empty)
 
 ### Todo
 ..* Only insert elements into the hash table if not already there.
+
 ..* Make generic.
+
 ..* Better error management.
 
 ### Issues
